@@ -7,7 +7,8 @@
     "hi": "echo Hello, World",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write --cache .",
-    "lint":"eslint --cache ."
+    "lint": "eslint --cache .",
+    "postinstall": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "eslint": "^8.50.0",
     "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
     "prettier": "^3.0.3"
   }
 }

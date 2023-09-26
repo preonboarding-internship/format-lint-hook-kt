@@ -1,5 +1,8 @@
 {
   "extends": ["prettier"],
+  "env": {
+    "es6": true
+  },
   "rules": {
     "no-var": "error", // var 금지
     "eqeqeq": "error", // 일치 연산자 사용 필수
